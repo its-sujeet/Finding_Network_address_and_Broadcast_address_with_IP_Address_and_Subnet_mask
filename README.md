@@ -76,4 +76,3 @@ For questions or feedback, please open an issue on [GitHub](https://github.com/i
 
 ---
 
-Feel free to replace `[your email]` with your actual email address and adjust any other details as needed. If there's anything specific you'd like to modify or add, just let me know!
