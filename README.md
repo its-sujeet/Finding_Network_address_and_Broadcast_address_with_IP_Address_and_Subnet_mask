@@ -72,7 +72,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, please open an issue on [GitHub](https://github.com/its-sujeet/Finding_Network_address_and_Broadcast_address_with_IP_Address_and_Subnet_mask).
+For questions or feedback, please open an issue on [GitHub](https://github.com/its-sujeet/Finding_Network_address_and_Broadcast_address_with_IP_Address_and_Subnet_mask/issues).
 
 ---
 
