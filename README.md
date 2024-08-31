@@ -58,7 +58,7 @@ Network Address: 192.168.1.0
 Broadcast Address: 192.168.1.255
 First Valid IP: 192.168.1.1
 Last Valid IP: 192.168.1.254
-Number of Hosts: 254
+Number of Hosts: 256
 Total Usable IP Addresses: 254
 ```
 
