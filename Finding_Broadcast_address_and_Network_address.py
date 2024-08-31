@@ -109,7 +109,9 @@ for i in range(4):
     sum+=bin_subnet_mask[i].count('1')
     # print(bin_subnet_mask)
 
-print(f"No of Host: 2^{32 - sum - 2} = {pow(2,(32-sum-2))}")
+print(f"No of Host: 2^{32 - sum } = {pow(2,(32-sum))}")
+
+print(f"Total usable Ip Address: {pow(2,32-sum)-2}")
 
 
 
