@@ -1,3 +1,4 @@
+
 # Finding Broadcast Address and Network Address
 
 This Python script calculates the network address, broadcast address, valid IP range, and the number of hosts given an IP address and subnet mask.
@@ -7,7 +8,7 @@ This Python script calculates the network address, broadcast address, valid IP r
 - **Network Address Calculation:** Computes the network address based on the provided IP address and subnet mask.
 - **Broadcast Address Calculation:** Determines the broadcast address for the given subnet mask.
 - **Valid IP Range:** Provides the first and last valid IP addresses in the subnet.
-- **Number of Hosts:** Calculates the number of usable IP addresses in the subnet.
+- **Number of Hosts:** Calculates the total and usable IP addresses in the subnet.
 
 ## Prerequisites
 
@@ -34,7 +35,7 @@ This Python script calculates the network address, broadcast address, valid IP r
 
 2. Input the IP address and subnet mask when prompted:
 
-   ```
+   ```bash
    Enter the IP address: 192.168.1.10
    Enter the Subnet Mask: 255.255.255.0
    ```
@@ -46,17 +47,19 @@ This Python script calculates the network address, broadcast address, valid IP r
    - **First Valid IP:** The first usable IP address within the subnet.
    - **Last Valid IP:** The last usable IP address within the subnet.
    - **Number of Hosts:** Total number of valid host IPs in the subnet.
+   - **Total Usable IP Addresses:** The number of IPs that can be assigned to hosts.
 
 ## Example Output
 
 For an IP address `192.168.1.10` and subnet mask `255.255.255.0`, the output will be:
 
-```
+```bash
 Network Address: 192.168.1.0
 Broadcast Address: 192.168.1.255
 First Valid IP: 192.168.1.1
 Last Valid IP: 192.168.1.254
 Number of Hosts: 254
+Total Usable IP Addresses: 254
 ```
 
 ## Code Explanation
